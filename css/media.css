@@ -1,0 +1,15 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 398px;
+  }
+
+  /* -----------Section two----------------- */
+
+  .section-two .list {
+    width: 100%;
+  }
+
+  .section-two .icon-div {
+    display: none;
+  }
+}
