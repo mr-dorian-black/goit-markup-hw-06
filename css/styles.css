@@ -82,6 +82,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 24px 15px;
 }
 
 .header-menu {
@@ -91,7 +92,6 @@ p {
 .page-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .page-nav .current-page {
@@ -126,7 +126,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  padding: 24px 0;
 }
 
 .nav-link:hover,
