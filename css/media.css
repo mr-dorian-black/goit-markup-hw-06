@@ -18,7 +18,7 @@
   /* ---------------Header------------------- */
 
   .header .container {
-    padding: 15px;
+    padding: 16px;
   }
 
   .mob-menu-btn {
@@ -32,6 +32,10 @@
 
   .page-nav {
     gap: 120px;
+  }
+
+  .address .item {
+    font-size: 12px;
   }
 
   .address .list {
@@ -178,7 +182,7 @@
   }
 
   .header .container {
-    padding: 15px;
+    padding: 24px 16px;
   }
 
   .header-menu {
