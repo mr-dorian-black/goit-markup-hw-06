@@ -536,7 +536,6 @@ p {
 }
 
 .section-five .item {
-  height: 88px;
   width: calc((100% - 16px) / 2);
 }
 
