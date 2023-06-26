@@ -309,7 +309,7 @@
   }
 
   .section-five .item {
-    width: unset;
+    width: calc((100% - (5 * 24px)) / 6);
   }
 
   /* -----------Footer----------------- */
