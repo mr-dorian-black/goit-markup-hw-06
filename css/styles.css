@@ -19,6 +19,8 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -175,7 +177,8 @@ p {
   justify-content: space-between;
   position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  overflow-y: auto;
   top: 0;
   z-index: 999;
   padding: 80px 40px 40px;
@@ -197,6 +200,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  margin-bottom: 40px;
 }
 
 .mob-menu-link {
@@ -242,7 +246,7 @@ p {
 .mob-menu-soc-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 56px;
+  gap: 24px 56px;
 }
 
 .mob-menu-soc-list .link {
@@ -333,8 +337,10 @@ p {
 }
 
 .section-two .item .text {
-  font-weight: 500;
+  font-size: 16px;
+  font-family: Roboto;
   line-height: 1.5;
+  font-weight: 500;
 }
 
 .section-two .icon-div {
@@ -400,7 +406,6 @@ p {
 
 .team-li {
   background-color: #ffffff;
-  /* width: calc((100% - 72px) / 4); */
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);

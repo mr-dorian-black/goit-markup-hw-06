@@ -88,14 +88,6 @@
     text-align: left;
   }
 
-  .section-two .list .text {
-    font-size: 16px;
-    font-family: Roboto;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-  }
-
   /* -----------Section four----------------- */
 
   .section-four .team-list {
@@ -268,6 +260,10 @@
     line-height: 1.2;
   }
 
+  .section-two .list .text {
+    font-weight: 400;
+  }
+
   /* -----------Section three----------------- */
 
   .section-three {
@@ -290,7 +286,19 @@
     padding: 120px 0;
   }
 
+  .section-four .team-list {
+    gap: 24px;
+  }
+
+  .team-li {
+    width: calc((100% - 72px) / 4);
+  }
+
   /* -----------Section five----------------- */
+
+  .section-five .list {
+    gap: 24px;
+  }
 
   .section-five {
     padding: 120px 0;
