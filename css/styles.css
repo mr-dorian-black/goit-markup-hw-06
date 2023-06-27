@@ -317,14 +317,14 @@ p {
 
 /* -----------Section two----------------- */
 
+.section-two .container {
+  padding: 96px 16px;
+}
+
 .section-two .list {
   display: flex;
   flex-wrap: wrap;
   gap: 72px 24px;
-}
-
-.section-two {
-  padding: 96px 0;
 }
 
 .section-two .item .title {
@@ -379,8 +379,11 @@ p {
 /* -----------Section four----------------- */
 
 .section-four {
-  padding: 96px 0;
   background-color: #f4f4fd;
+}
+
+.section-four .container {
+  padding: 96px 16px;
 }
 
 .section-four .team-list {
@@ -520,8 +523,8 @@ p {
 
 /* -----------Section five----------------- */
 
-.section-five {
-  padding: 96px 0;
+.section-five .container {
+  padding: 96px 16px;
 }
 
 .section-five .section-title {
