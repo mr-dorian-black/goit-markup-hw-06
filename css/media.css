@@ -3,6 +3,16 @@
     max-width: 428px;
   }
 
+  /* ------------Mobile menu---------------- */
+
+  .mob-menu-address-number {
+    font-size: 36px;
+  }
+
+  .mob-menu-soc-list {
+    gap: 24px 56px;
+  }
+
   /* -----------Section two----------------- */
 
   .section-two .list {
